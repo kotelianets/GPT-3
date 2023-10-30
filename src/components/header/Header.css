@@ -1,0 +1,110 @@
+/* Header styles */
+.header {
+  position: relative;
+  margin: 0 auto;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  width: 1279.315px;
+  height: 701.59px;
+}
+
+.header__heading {
+  width: 720px;
+  display: inline-block;
+  line-height: 80px;
+  letter-spacing: 2.52px;
+  font-family: Manrope;
+  font-size: 62px;
+  font-weight: 800;
+  background: linear-gradient(90deg, #ae67fa 1.84%, #f49867 102.67%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 33px;
+}
+
+.header__paragraph {
+  display: inline-block;
+  color: #81afdd;
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 554px;
+  margin-bottom: 30px;
+}
+
+.header__form {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.header__email {
+  width: 456px;
+  height: 73px;
+  color: #3d6184;
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 5px 0px 0px 5px;
+  background: #052d56;
+  border: none;
+  padding-left: 32px;
+}
+
+.header__email:focus {
+  outline: none;
+}
+
+.header__form-button {
+  width: 174px;
+  height: 74px;
+  border-radius: 0px 5px 5px 0px;
+  background: #ff4820;
+  color: #fff;
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: -10px;
+  border: none;
+}
+
+.header__people {
+  display: flex;
+  align-items: center;
+}
+
+.header__people-content {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.header__ai {
+  width: 667.41px;
+  height: 701.59px;
+}
+
+.header-base {
+  display: flex;
+  flex-direction: column;
+}
+
+.companiesLogo {
+  display: flex;
+  align-items: center;
+}
+
+.companiesLogo-container {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 46.483px;
+  margin: 120px auto;
+}
+

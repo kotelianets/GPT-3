@@ -1,0 +1,67 @@
+.container {
+  width: 1279.315px;
+  height: 58px;
+}
+.nav-container {
+  margin: 71px auto;
+}
+
+.blur {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.nav {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  margin-right: auto;
+}
+
+.nav-item {
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.nav-home {
+  margin-right: 53px;
+  margin-left: 68.7px;
+}
+
+.nav-link {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 34px;
+}
+
+.btn {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-signUn {
+  width: 152px;
+  height: 58px;
+  background-color: #ff4820;
+  border-radius: 5px;
+  margin-left: 26.6px;
+}
