@@ -7,7 +7,7 @@ import dropbox from '../../assets/dropbox.png';
 import shopify from '../../assets/shopify.png';
 import './Header.css';
 
-const Header = () => {
+const Header = (props) => {
   return (
     <div className="header-base">
       <div className="header container">
@@ -21,16 +21,18 @@ const Header = () => {
             alteration boisterous the attachment. Party we years to order allow
             asked of.
           </p>
-          <form className="header__form">
-            <input
-              type="email"
-              placeholder="Your Email Address"
-              className="header__email"
-            />
-            <button type="submit" className="header__form-button">
-              Get Started
-            </button>
-          </form>
+          {props.toggle && (
+            <form className="header__form">
+              <input
+                type="email"
+                placeholder="Your Email Address"
+                className="header__email"
+              />
+              <button type="submit" className="header__form-button">
+                Get Started
+              </button>
+            </form>
+          )}
           <div className="header__people">
             <img src={people} alt="people"></img>
             <div className="header__people-content">

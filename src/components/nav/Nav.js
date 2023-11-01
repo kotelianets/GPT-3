@@ -1,7 +1,7 @@
 import './Nav.css';
 import blur from '../../assets/blur-01.png';
 
-const Nav = () => {
+const Nav = (props) => {
   return (
     <div className="nav-container container">
       <img src={blur} alt="blur" className="blur" draggable={false}></img>
@@ -66,7 +66,9 @@ const Nav = () => {
           </li>
         </ul>
         <div className="buttons">
-          <button className="nav-signIn btn">Sign in</button>
+          <button className="nav-signIn btn" onClick={props.toggle}>
+            Sign in
+          </button>
           <button className="nav-signUn btn">Sign up</button>
         </div>
       </nav>
