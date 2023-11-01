@@ -1,0 +1,122 @@
+.about {
+  position: relative;
+  width: 1170px;
+  height: 695px;
+  background: #06274a;
+  margin: 50px auto;
+  border-radius: 20px;
+  padding: 70px 70px 0px 70px;
+  overflow: hidden;
+}
+
+.about__blur-Topleft {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.about__blur-bottomRight {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.whatisGPT {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+
+.whatisGPT__heading {
+  position: relative;
+  color: #fff;
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 800;
+  z-index: 1;
+}
+
+.whatisGPT__heading::after {
+  content: '';
+  position: absolute;
+  width: 38px;
+  height: 3px;
+  top: -10px;
+  left: 0;
+  background: linear-gradient(103deg, #ae67fa -13.86%, #f49867 99.55%), #fff;
+}
+
+.whatisGPT__paragraph {
+  color: #81afdd;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  width: 731px;
+}
+
+.gptPossibilities {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 97px;
+}
+
+.gptPossibilities__heading {
+  width: 472px;
+  font-family: Manrope;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 45px;
+  background: linear-gradient(90deg, #ae67fa 1.84%, #f49867 102.67%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gptPossibilities__explore {
+  color: #ff8a71;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.gptOptions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gptOptions__chatbot-heading {
+  position: relative;
+  color: #fff;
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 75px; /* 312.5% */
+  letter-spacing: -0.96px;
+  margin-bottom: 30px;
+}
+
+.gptOptions__chatbot-heading::after {
+  content: '';
+  position: absolute;
+  width: 38px;
+  height: 3px;
+  top: 10px;
+  left: 0;
+  background: linear-gradient(103deg, #ae67fa -13.86%, #f49867 99.55%), #fff;
+}
+
+.gptOptions__chatbot-paragraph {
+  position: relative;
+  color: #81afdd;
+  width: 334px;
+  z-index: 1;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
