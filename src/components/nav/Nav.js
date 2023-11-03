@@ -66,10 +66,10 @@ const Nav = (props) => {
           </li>
         </ul>
         <div className="buttons">
-          <button className="nav-signIn btn" onClick={props.toggle}>
-            Sign in
+          <button className="nav-signIn btn">Sign in</button>
+          <button className="nav-signUn btn" onClick={props.openForm}>
+            Sign up
           </button>
-          <button className="nav-signUn btn">Sign up</button>
         </div>
       </nav>
     </div>

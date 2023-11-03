@@ -5,6 +5,7 @@ import About from './components/about_section/About';
 import Feature from './components/feature_section/Feature';
 import CTA from './components/CTA/CTA';
 import Footer from './components/footer/Footer';
+import SignUpForm from './components/signUp form/SignUpForm';
 
 function App() {
   const [toggle, setToggle] = useState(true);
@@ -14,8 +15,9 @@ function App() {
   };
   return (
     <div>
-      <Nav toggle={toggleHandler} />
-      <Header toggle={toggle} />
+      <Nav openForm={toggleHandler} />
+      {toggle && <SignUpForm closeForm={toggleHandler} />}
+      {!toggle && <Header />}
       <About />
       <Feature />
       <CTA />
