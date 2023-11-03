@@ -1,6 +1,8 @@
 .footer {
   height: 950px;
+  width: 100%;
   background: #031b34;
+  margin: 0 auto;
 }
 
 .footer__content {
@@ -115,10 +117,12 @@
   position: fixed;
   bottom: 20px;
   left: 20px;
-  background-color: #fff;
+  background-color: #ffffff8f;
   padding: 10px;
   border-radius: 10px;
   text-align: center;
+  transition: all 0.3s;
+  cursor: pointer;
 }
 
 .nails {
@@ -130,4 +134,8 @@
   color: #2f2f2f;
   font-size: 22px;
   font-weight: 700;
+}
+
+.created:hover {
+  background-color: #ffffff;
 }
