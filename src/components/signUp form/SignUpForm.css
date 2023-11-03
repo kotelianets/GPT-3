@@ -8,7 +8,7 @@
   border-radius: 30px;
   width: 40%;
   margin: 0 auto;
-  padding: 40px;
+  padding: 50px;
   font-family: Manrope;
 
   animation: openForm 1s ease-in forwards;
@@ -81,4 +81,15 @@ label {
   100% {
     transform: translateY(0px);
   }
+}
+
+.closeModal {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.closeModalImg {
+  height: 40px;
 }

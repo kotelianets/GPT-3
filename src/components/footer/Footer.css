@@ -74,7 +74,7 @@
 .link-heding {
   margin-bottom: 14px;
   color: #fff;
-  font-size: 14px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -88,6 +88,7 @@
   list-style-type: none;
   margin-right: 40px;
   margin-bottom: 16px;
+  /* font-size: 16; */
 }
 
 .link-target {
@@ -95,7 +96,7 @@
   flex-direction: column;
   text-decoration: none;
   color: #fff;
-  font-size: 12px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;

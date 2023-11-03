@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './SignUpForm.css';
+import closeButton from '../../assets/close.png';
 
 const SignUpForm = (props) => {
   const [input, setInput] = useState({
@@ -96,6 +97,14 @@ const SignUpForm = (props) => {
       {!isMatched && (
         <div className="errorMessage">Passwords do not match!</div>
       )}
+
+      <div className="closeModal" onClick={props.closeForm}>
+        <img
+          src={closeButton}
+          className="closeModalImg"
+          alt="close button"
+        ></img>
+      </div>
     </form>
   );
 };
