@@ -97,7 +97,7 @@ const Footer = () => {
           <ul className="link-list">
             <li className="link-item">
               <a href="###" className="link-target">
-                Crechterwoord K12 182 DK Alknjkcb
+                Pembroke Pines 13007 NW Miami , Florida
               </a>
             </li>
             <li className="link-item">
@@ -106,8 +106,8 @@ const Footer = () => {
               </a>
             </li>
             <li className="link-item">
-              <a href="###" className="link-target">
-                info@payme.net
+              <a href="mailto: kotelyanets97@gmail.com" className="link-target">
+                kotelyanets97@gmail.com
               </a>
             </li>
           </ul>

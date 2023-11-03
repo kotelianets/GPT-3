@@ -13,11 +13,12 @@ function App() {
   const toggleHandler = () => {
     setToggle(!toggle);
   };
+
   return (
     <div>
       <Nav openForm={toggleHandler} />
-      {toggle && <SignUpForm closeForm={toggleHandler} />}
-      {!toggle && <Header />}
+      {!toggle && <SignUpForm closeForm={toggleHandler} />}
+      {toggle && <Header />}
       <About />
       <Feature />
       <CTA />
