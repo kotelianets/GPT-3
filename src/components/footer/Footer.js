@@ -117,7 +117,7 @@ const Footer = () => {
       <div className="created">
         <a
           className="created-link"
-          href="https://www.instagram.com/v.kotelianets/?hl=ru"
+          href="https://github.com/kotelianets"
           target="blank"
         >
           by V. Kotelianets
