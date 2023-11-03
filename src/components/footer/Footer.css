@@ -1,0 +1,133 @@
+.footer {
+  height: 950px;
+  background: #031b34;
+}
+
+.footer__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 175px;
+}
+
+.footer__heading {
+  width: 821px;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 75px; /* 120.968% */
+  letter-spacing: -2.48px;
+  background: linear-gradient(90deg, #ae67fa 1.84%, #f49867 102.67%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 64px;
+}
+
+.footer__btn {
+  width: 218px;
+  height: 65px;
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-bottom: 180px;
+}
+
+.footer__btn:hover {
+  transform: scale(1.1);
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-logo {
+  margin-bottom: 25px;
+}
+
+.footer-adress {
+  width: 168px;
+  color: #fff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.link-heding {
+  margin-bottom: 14px;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  align-self: center;
+}
+
+.link-list {
+}
+
+.link-item {
+  list-style-type: none;
+  margin-right: 40px;
+  margin-bottom: 16px;
+}
+
+.link-target {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.all-rights {
+  color: #fff;
+  font-feature-settings: 'liga' off;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 83px;
+  margin-bottom: 19px;
+  text-align: center;
+}
+
+.created {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.nails {
+  height: 22px;
+  margin-left: 10px;
+}
+.created-link {
+  text-decoration: none;
+  color: #2f2f2f;
+  font-size: 22px;
+  font-weight: 700;
+}

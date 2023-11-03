@@ -1,7 +1,10 @@
+import { useState } from 'react';
 import Nav from './components/nav/Nav';
 import Header from './components/header/Header';
 import About from './components/about_section/About';
-import { useState } from 'react';
+import Feature from './components/feature_section/Feature';
+import CTA from './components/CTA/CTA';
+import Footer from './components/footer/Footer';
 
 function App() {
   const [toggle, setToggle] = useState(true);
@@ -14,6 +17,9 @@ function App() {
       <Nav toggle={toggleHandler} />
       <Header toggle={toggle} />
       <About />
+      <Feature />
+      <CTA />
+      <Footer />
     </div>
   );
 }
